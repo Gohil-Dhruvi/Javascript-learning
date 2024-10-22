@@ -68,20 +68,20 @@
 
 //     #5 write a function find average of number up to n 
 
-//     function average(n)
-//     {
-//         if(n < 1)
-//         {
-//             console.log(0);
-//             return;
-//         }
-//         let s=(n*(n+1))/2;
-//         let average = s/n;
-//         console.log(average);
-//     }
-//     average(8);
+    // function average(n)
+    // {
+    //     if(n < 1)
+    //     {
+    //         console.log(0);
+    //         return;
+    //     }
+    //     let s=(n*(n+1))/2;
+    //     let average = s/n;
+    //     console.log(average);
+    // }
+    // average(16);
 
-//     exp: average 4.5
+    // exp: average 8.5
 
      
 
