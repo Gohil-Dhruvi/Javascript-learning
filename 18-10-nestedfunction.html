@@ -20,18 +20,17 @@
         //     innerFun();
         // }
 
-        // function outerFun()
-        // {
-        //     let outer=100;
-        //     function innerFun()
-        //     {
-        //         let inner=50;
-        //         console.log("Inner function called...",inner+outer);
-        //     }
-        //     innerFun();
-        //     console.log("outer function is called...",inner-outer);
-            
-        // }
+        function outerFun()
+        {
+            let outer=100;
+            function innerFun()
+            {
+                let inner=50;
+                console.log("Inner function called...");
+            }
+            innerFun();
+            console.log("outer function is called...");
+        }
     </script>
 </body>
 </html>
