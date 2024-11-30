@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(188, 102, 155);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: lightblue;
+  font-size: 50px;
+}
+.counter {
+  font-size: 70px;
+  color: green;
+}
+.buttons {
+  margin-top: 20px;
+}
+button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
