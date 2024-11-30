@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #dbaab2, #97aed1);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#quote-box {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+h1 {
+    color: #3c6da6;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#quote-text {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 20px 0;
+    color: #121212;
+}
+#quote-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #414040;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#start-btn {
+    background-color: #4caf50;
+    color: white;
+}
+#start-btn:hover {
+    background-color: #45a049;
+}
+#stop-btn {
+    background-color: #f44336;
+    color: white;
+}
+#stop-btn:hover {
+    background-color: #e53935;
+}
